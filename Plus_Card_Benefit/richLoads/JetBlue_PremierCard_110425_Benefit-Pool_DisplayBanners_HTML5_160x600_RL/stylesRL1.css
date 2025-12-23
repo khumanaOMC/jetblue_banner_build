@@ -1,0 +1,290 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+
+}
+
+#main_container {
+  position: absolute;
+  /* background-color: #000064; */
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 160px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 160px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 160px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+.bannerSize {
+
+  width: 160px;
+  height: 600px;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+/* @font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+} */
+
+
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url('./fonts/ESKlarheitGrotesk-Xbd.woff2') format('woff2'),
+    url('./fonts/ESKlarheitGrotesk-Xbd.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url('./fonts/ESKlarheitGrotesk-Smbd.woff2') format('woff2'),
+    url('./fonts/ESKlarheitGrotesk-Smbd.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+.full-width {
+  width: 160px;
+  height: 600px;
+}
+
+.copy1,
+.copy2,
+.copy3,
+.copy4 {
+  font-family: "ESKlarheitGrotesk Xbd";
+  width: 100%;
+  will-change: transform;
+  color: #fff;
+  text-align: center;
+}
+
+.copy1 {}
+
+.copycomman {
+  line-height: 34px;
+  font-size: 30px;
+  letter-spacing: 0;
+  position: absolute;
+}
+
+
+.c1 {
+  top: 70px;
+  left: 17px;
+}
+
+.c2 {
+  top: 124px;
+  left: 23px;
+  font-weight: bold;
+  /* font-family: "ESKlarheitGrotesk Smbd"; */
+  color: #00e1ff;
+  letter-spacing: -0.3px;
+}
+
+.c3 {
+  top: 164px;
+  left: 26px;
+  font-weight: 800;
+}
+
+.c4 {
+  top: 196px;
+  left: 21px;
+  letter-spacing: -0.2px;
+}
+
+.c4 sup {
+  top: 2px;
+  position: relative;
+  left: -1px;
+  font-size: 22px;
+  /* font-family: "ESKlarheitGrotesk Smbd"; */
+}
+
+
+.copy2 .c1 {
+  top: 69px;
+  left: 1px;
+}
+
+
+
+
+
+.copy2 {
+  /* line-height: 22px;
+  font-size: 19.1px;
+  top: 86px;
+  left: 0px;
+  letter-spacing: -1px; */
+}
+
+.copy2 span {
+  color: #000766;
+}
+
+.copy2 sup {
+  font-size: 10px;
+  vertical-align: top;
+  line-height: 0;
+  position: relative;
+  top: 7px;
+  left: 1px;
+}
+
+.copy3 {
+  top: 113px;
+  left: 0px;
+  font-size: 21px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.copy3 span {
+  color: #000766;
+}
+
+.copy4 {
+  top: 70px;
+  left: -1px;
+  font-size: 27px;
+  line-height: 31px;
+  color: #0000aa;
+  letter-spacing: -0.5px;
+}
+
+.copy4 span {
+  color: #00e1ff;
+}
+
+.last-frame {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  transform: translateY(600px);
+  will-change: transform;
+}
+
+#cta {
+  font-family: "ESKlarheitGrotesk Smbd";
+  background-color: #0000aa;
+  display: inline-block;
+  font-size: 13.4px;
+  top: 241px;
+  left: 27px;
+  width: 106px;
+  height: 35.5px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 2px;
+}
+
+.term {
+  font-family: "ESKlarheitGrotesk Smbd";
+  color: #0000aa;
+  width: 100%;
+  font-size: 6.2px;
+  top: 419px;
+  left: 112px;
+
+
+}
+
+
+.term1 {
+  font-family: "ESKlarheitGrotesk Smbd";
+  color: #fff;
+  width: 100%;
+  font-size: 6.2px;
+  top: 341px;
+  left: 112px;
+
+
+}
+
+/* Shine effect */
+#shine {
+  top: 45px;
+  left: 0px;
+  width: 160px;
+  height: 600px;
+  background-image: url(./images/shine.png);
+  background-size: contain;
+  background-position: -135px 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 160px 600px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./images/mask.png);
+}
