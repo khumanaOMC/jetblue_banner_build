@@ -193,9 +193,8 @@ video {
 .copy2 .c4 {
   top: 203.6px;
   left: 9px;
-  letter-spacing: 0px;
-  font-family: "ESKlarheitGrotesk Smbd";
-  /* font-weight: 900; */
+  /* letter-spacing: 0px; */
+  font-size: 35px;
   color: #00e1ff;
 }
 
@@ -204,7 +203,6 @@ video {
   position: relative;
   left: -8px;
   font-size: 22px;
-  font-family: "ESKlarheitGrotesk Smbd";
 }
 
 
