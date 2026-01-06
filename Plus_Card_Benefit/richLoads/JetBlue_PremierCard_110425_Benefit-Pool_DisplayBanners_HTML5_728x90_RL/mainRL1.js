@@ -34,7 +34,7 @@ function animate() {
     // .to('#copy3', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3+=4.5')
     // .addLabel('frame4', 'frame3+=4.7')
     .to('#lastFrame', 0.6, { x: 0, ease: Power2.easeOut }, 'frame4')
-    .to('#shine', 0.5, { backgroundPosition: '535px 0px' }, 'frame4+=1');
+    .to('#shine', 0.6, { backgroundPosition: '555px 0px' }, 'frame4+=1');
 }
 
 function setRollover() {
