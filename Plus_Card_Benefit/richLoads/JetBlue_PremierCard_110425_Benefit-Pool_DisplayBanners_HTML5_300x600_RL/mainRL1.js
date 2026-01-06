@@ -21,17 +21,17 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set(['#copy2, #copy3'], {y: 20})
+  tl.set(['#copy2, #copy3'], { y: 20 })
 
-  .addLabel('frame1', 0)
-    .to('#copy1', 0.5, {autoAlpha: 1, ease: Power1.easeInOut}, 'frame1')
-    .to('#copy1', 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3')
-  .addLabel('frame2', 'frame1+=3.2')
-    .to('#copy2', 0.5, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame2')
-    .to('#copy2', 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame2+=4.5')
-  .addLabel('frame3', 'frame2+=4.7')
-    .to('#lastFrame',0.6,{y: 0, ease: Power2.easeOut}, 'frame3')
-    .to('#shine', 0.5, {backgroundPosition: '270px 0px'}, 'frame3+=1');
+    .addLabel('frame1', 0)
+    .to('#copy1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, 'frame1')
+    .to('#copy1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame1+=3')
+    .addLabel('frame2', 'frame1+=3.2')
+    .to('#copy2', 0.5, { y: 0, autoAlpha: 1, ease: Power1.easeInOut }, 'frame2')
+    .to('#copy2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2+=4.5')
+    .addLabel('frame3', 'frame2+=4.7')
+    .to('#lastFrame', 0.6, { y: 0, ease: Power2.easeOut }, 'frame3')
+    .to('#shine', 0.5, { backgroundPosition: '157px 0px' }, 'frame3+=1');
 }
 
 function setRollover() {
