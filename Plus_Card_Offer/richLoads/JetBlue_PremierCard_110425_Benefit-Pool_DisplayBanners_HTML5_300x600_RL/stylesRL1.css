@@ -1,0 +1,225 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url('./fonts/ESKlarheitGrotesk-Xbd.woff2') format('woff2'),
+    url('./fonts/ESKlarheitGrotesk-Xbd.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url('./fonts/ESKlarheitGrotesk-Smbd.woff2') format('woff2'),
+    url('./fonts/ESKlarheitGrotesk-Smbd.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.full-width {
+  width: 300px;
+  height: 600px;
+}
+
+.copy1,
+.copy2,
+.copy3,
+.copy4 {
+  font-family: "ESKlarheitGrotesk Xbd";
+  color: #fff;
+  width: 100%;
+  will-change: transform;
+}
+
+.copy1 {
+  top: 43.5px;
+  left: 29.5px;
+  font-size: 33.8px;
+  line-height: 60.1px;
+  letter-spacing: -0.84px;
+}
+
+
+.seprator {
+  display: block;
+  position: absolute;
+  left: 75px;
+  height: 3px;
+  width: 115px;
+  background: #fff;
+  top: 28px;
+
+}
+
+.c7 {
+  font-size: 79px;
+  position: absolute;
+  left: -2px;
+  display: block;
+  top: 63px;
+  letter-spacing: -2.1px;
+  color: #0000aa;
+}
+
+.copy2 {
+  top: 43.5px;
+  left: 29.5px;
+  font-size: 33.8px;
+  line-height: 60.1px;
+  letter-spacing: -0.84px;
+}
+
+
+.copy2 span {
+  font-size: 79px;
+  position: absolute;
+  left: -2px;
+  display: block;
+  top: 63px;
+  letter-spacing: -2.1px;
+  color: #0000aa;
+}
+
+.copy3 {
+  top: 55px;
+  left: 30px;
+  font-size: 33.6px;
+  line-height: 38.7px;
+  color: #fff;
+  letter-spacing: -0.7px;
+}
+
+.copy4 {
+  top: 55px;
+  left: 30px;
+  font-size: 33.6px;
+  line-height: 37.7px;
+  letter-spacing: -1px;
+}
+
+.copy3 span {
+  color: #00e1ff;
+}
+
+.last-frame {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  transform: translateY(600px);
+  will-change: transform;
+}
+
+#cta {
+  font-family: "ESKlarheitGrotesk Smbd";
+  background-color: #ff6433;
+  display: inline-block;
+  font-size: 13px;
+  top: 224px;
+  left: 30px;
+  width: 143px;
+  height: 36px;
+  color: #fff;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 3px;
+  letter-spacing: 0.1px;
+}
+
+.term {
+  font-family: "ESKlarheitGrotesk Smbd";
+  color: #0000aa;
+  width: 100%;
+  font-size: 10.65px;
+  top: 447px;
+  left: 205px;
+}
+
+#termlast {
+  color: #0000aa;
+  top: 447px;
+  left: 205px;
+  font-size: 10.6px;
+}
+
+/* Shine effect */
+#shine {
+  width: 300px;
+  height: 600px;
+  background-image: url(./images/shine.png);
+  background-size: contain;
+  background-position: -225px 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 300px 600px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left;
+  mask-image: url(./images/mask.png);
+}
